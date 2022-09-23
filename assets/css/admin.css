@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    background: linear-gradient(to right,rgb(37, 15, 128),rgb(143, 32, 32),rgb(160, 17, 120));
+}
+#page{
+    text-align: center;
+    color:gray;
+    margin-top: 25px;
+}
+#contacts-list-container{
+    width: 45%;
+     min-width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid lightgray;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    background-color:rgb(138, 191, 229);
+    overflow-y: scroll;
+    
+}
+.details{
+    border: #5e5ebe;
+    border-radius:10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.details:hover{
+    background-color: rgb(140, 110, 110);
+
+}
+.delete-button{
+    width: 10%;
+}
