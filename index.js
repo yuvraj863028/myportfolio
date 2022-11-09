@@ -1,4 +1,6 @@
 const { Console } = require('console');
+require('dotenv').config()
+
 const express =require('express');
 const mongoose=require('mongoose');
 

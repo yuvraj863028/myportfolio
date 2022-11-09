@@ -1,7 +1,8 @@
 //require the library
 const mongoose=require('mongoose');
+
 //connect to db
-mongoose.connect('mongodb+srv://ashu:1234@cluster1.1iakot6.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect(process.env.DB_url);
 ///connection checking error
 const db=mongoose.connection;
 ///for error
